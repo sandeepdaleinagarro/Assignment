@@ -1,7 +1,7 @@
 # Getting Started
  
 1. **Clone the Repository**
-   - Use the command `git clone <repository_url>` to clone the repository into your local machine.
+   - Use the command `git clone <https://github.com/sandeepdaleinagarro/Assignment>` to clone the repository into your local machine.
    - Ensure all dependencies are downloaded and updated.
  
 2. **System Requirements**
