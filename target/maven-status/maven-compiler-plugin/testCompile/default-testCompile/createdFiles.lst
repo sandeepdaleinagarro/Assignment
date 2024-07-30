@@ -1,0 +1,6 @@
+com\stepdefinitions\LoginPageSteps.class
+com\stepdefinitions\HomePageSteps.class
+com\stepdefinitions\SearchPageSteps.class
+com\runners\RunnerTest.class
+com\runners\TestNGRunner.class
+com\hooks\Hooks.class

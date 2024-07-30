@@ -1,0 +1,6 @@
+com\pages\HomePage.class
+com\pages\LoginPage.class
+com\driverfactory\WebDriverFactory.class
+com\pages\USNewsPage.class
+com\pages\SearchPage.class
+com\utils\ConfigReader.class
