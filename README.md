@@ -39,7 +39,7 @@
  
 4. **Reporting**
    - Extent reports in both HTML and PDF formats are used for reporting.
-   - After execution, detailed reports will be available in the `test-output -> pdfReport/SparkReport` folders.
+   - After execution, detailed reports will be available in the `test-output -> pdfReport` and Reports (Spark.html) folders.
  
 5. **Running Tests**
    - To execute test cases, directly run the runner file `TestNGRunner.java` with TestNG Test.
