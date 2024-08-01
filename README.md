@@ -36,14 +36,16 @@
 3. **Test Execution**
    - Cucumber + TestNG is used to run test feature files.
    - The runner class is located at `src/test/java/com/runners/TestNGRunner.java`.
+   - The runner class can be executed with the `tesstng.xml` file.
  
 4. **Reporting**
    - Extent reports in both HTML and PDF formats are used for reporting.
    - After execution, detailed reports will be available in the `test-output -> pdfReport` and Reports (Spark.html) folders.
  
 5. **Running Tests**
-   - To execute test cases, directly run the runner file `TestNGRunner.java` with TestNG Test.
-   - To execute test cases using Maven, run the command `clean verify` using Maven command line or directly in Eclipse using Maven Build Configuration.
+   - To execute test cases, directly run the runner file `TestNGRunner.java` or the xml file `testng.xml` file with TestNG Test.
+   - To execute test cases using Maven, run the command `clean test -Dsurefire.suiteXmlFiles=testng.xml` using Maven command line or directly in Eclipse using Maven Build 
+     Configuration.
  
 6. **Viewing Reports**
-   - After execution, view the report using `Spark.html` or `ExtentPdf.pdf` located in the `test-output` folder.
+   - After execution, view the report using `Spark.html` or `ExtentPdf.pdf` located in the `Reports` and `test-output` folder respectively.
